@@ -1,8 +1,11 @@
-/* Alerts */
+/* Flow UI - CSS component Library by Renuka Paturkar */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
 /* Documentation css */
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     width:100%;
@@ -12,6 +15,12 @@ body{
     position: relative;
     
 }
+h1, h2 {
+    color: #374151;
+    padding: 1rem;
+
+}
+
 .link{
     text-decoration: none;
     color: rebeccapurple;
@@ -25,7 +34,7 @@ body{
 .list-inline {
     display: inline;
     padding: 1rem;
-    color: black;
+    color: white;
     
 }
 

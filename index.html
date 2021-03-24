@@ -12,50 +12,55 @@
     <nav class="navigation">
       <span class="heading">Flow UI</span>
       <ul>
-        <li class="list-non-bullet list-inline">Github</li>
-        <li class="list-non-bullet list-inline">Download</li>
+        <a class="link" href="https://github.com/renukapaturkar/flow-ui">
+          <li class="list-non-bullet list-inline">Github</li>
+        </a>
+        <a class="link" href="https://github.com/renukapaturkar/flow-ui/blob/Development/flow.css" download="CSS">
+          <li class="list-non-bullet list-inline">Download</li>
+        </a>
       </ul>
     </nav>
 
     <div class="flex-container">
       <div class="aside-container">
         <aside>
-          <a class="link" href="#">
+          <a class="link" href="#alert-section">
             <li class="list-non-bullet">Alert</li>
           </a>
-          <a class="link" href="#">
+          <a class="link" href="#avatar-section">
             <li class="list-non-bullet">Avatar</li>
           </a>
-          <a class="link" href="#">
+          <a class="link" href="#badge-section">
             <li class="list-non-bullet">Badge</li>
           </a>
-          <a class="link" href="#">
+          <a class="link" href="#button-section">
             <li class="list-non-bullet">Button</li>
           </a>
           <a class="link" href="#">
             <li class="list-non-bullet">Card</li>
           </a>
-          <a class="link" href="#">
+          <a class="link" href="#images-section">
             <li class="list-non-bullet">Image</li>
           </a>
-          <a class="link" href="#">
-            <li class="list-non-bullet">List</li>
-          </a>
-          <a class="link" href="#">
-            <li class="list-non-bullet">Navigation</li>
-          </a>
-          <a class="link" href="#">
-            <li class="list-non-bullet">Modal</li>
-          </a>
-          <a class="link" href="#">
+          <a class="link" href="#input-section">
             <li class="list-non-bullet">Input</li>
           </a>
+          <a class="link" href="#list-section">
+            <li class="list-non-bullet">List</li>
+          </a>
+          <a class="link" href="#modal-section">
+            <li class="list-non-bullet">Modal</li>
+          </a>
+          <a class="link" href="#nav-section">
+            <li class="list-non-bullet">Navigation</li>
+          </a>
+          >
         </aside>
       </div>
 
       <div class="content">
         <!-- Alerts -->
-
+        <h1 id="alert-section">Alert</h1>
         <div>
           <div class="alert">
             <span>This is an alert!</span>
@@ -83,6 +88,7 @@
         </div>
 
         <!-- Avatar -->
+        <h1 id="avatar-section">Avatar</h1>
         <div>
           <span>
             <img
@@ -125,7 +131,7 @@
         </div>
 
         <!-- Badges -->
-
+        <h1 id="badge-section">Badge</h1>
         <div>
           <!-- This is badge on icon -->
           <div>
@@ -185,7 +191,7 @@
         <!-- Buttons -->
 
         <div>
-          <h1>Buttons</h1>
+          <h1 id="button-section">Buttons</h1>
           <br />
           <h2>Regular Butttons</h2>
           <button class="btn btn-primary btn-primary-hover">Primary</button>
@@ -254,8 +260,34 @@
           </iframe>
         </div>
 
+        <!-- images -->
+        <h1 id="images-section">Responsive Image</h1>
+
+        <div>
+          <img
+            class="img img-large"
+            src="Images/image-unsplash.jpg"
+            alt="img"
+          />
+        </div>
+
+        <div class="iframe-div">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img%2520img-large%2522%2520src%253D%2522Images%252Fimage-unsplash.jpg%2522%2520alt%253D%2522img%2522%2520%252F%253E"
+            style="
+              width: 883px;
+              height: 202px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
         <!-- Inputs -->
-        <h1>Input</h1>
+        <h1 id="input-section">Input</h1>
 
         <div>
           <input class="input" type="text" placeholder="Name" />
@@ -325,34 +357,8 @@
           </iframe>
         </div>
 
-        <!-- images -->
-        <h1>Responsive Image</h1>
-
-        <div>
-          <img
-            class="img img-large"
-            src="Images/image-unsplash.jpg"
-            alt="img"
-          />
-        </div>
-
-        <div class="iframe-div">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img%2520img-large%2522%2520src%253D%2522Images%252Fimage-unsplash.jpg%2522%2520alt%253D%2522img%2522%2520%252F%253E"
-            style="
-              width: 883px;
-              height: 202px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
         <!-- Lists -->
-        <h1>Lists</h1>
+        <h1 id="list-section">Lists</h1>
         <h2>Stacked List</h2>
         <div>
           <div>
@@ -406,38 +412,9 @@
           </div>
         </div>
 
-        <!-- Navigation -->
-        <h1>Navigation</h1>
-        <br />
-        <div>
-          <nav class="navigation">
-            <span class="heading">Navigation</span>
-            <ul>
-              <li class="list-non-bullet list-inline">Products</li>
-              <li class="list-non-bullet list-inline">Contact</li>
-              <li class="list-non-bullet list-inline">Documentation</li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="iframe-div">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2509%253Cspan%2520class%253D%2522heading%2522%253ENavigation%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2509%253Cli%2520class%253D%2522list-non-bullet%2520list-inline%2522%253EProducts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-non-bullet%2520list-inline%2522%253EContact%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-non-bullet%2520list-inline%2522%253EDocumentation%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E"
-            style="
-              width: 883px;
-              height: 314px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
         <br />
         <!-- Modal -->
-        <h1>Modal</h1>
+        <h1 id="modal-section">Modal</h1>
         <div>
           <div class="modal">
             <div class="modal-heading"
@@ -475,6 +452,34 @@
           </iframe>
         </div>
         <br />
+
+        <!-- Navigation -->
+        <h1 id="nav-section">Navigation</h1>
+        <br />
+        <div>
+          <nav class="navigation">
+            <span class="heading">Navigation</span>
+            <ul>
+              <li class="list-non-bullet list-inline">Products</li>
+              <li class="list-non-bullet list-inline">Documentation</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="iframe-div">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2509%253Cspan%2520class%253D%2522heading%2522%253ENavigation%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2509%253Cli%2520class%253D%2522list-non-bullet%2520list-inline%2522%253EProducts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-non-bullet%2520list-inline%2522%253EDocumentation%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E"
+            style="
+              width: 883px;
+              height: 298px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
       </div>
 
       <!--  container div -->
