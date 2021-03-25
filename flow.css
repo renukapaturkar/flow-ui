@@ -14,6 +14,7 @@ body{
     box-sizing: border-box;
     position: relative;
     
+    
 }
 h1, h2 {
     color: #374151;
@@ -63,12 +64,13 @@ h1, h2 {
    
     height: 90vh;
     padding-top: 2rem;
+    padding-left: 2rem;
     overflow: auto;
 }
 
 .content {
     width: 100%;
-   
+    
     padding-left:2rem;
     padding-top: 2rem;
     height: 90vh;
@@ -85,8 +87,12 @@ h1, h2 {
 }
 
 .iframe-div {
-    margin: 2rem;
-    text-align: center;
+    padding:2rem;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    max-width: 70%;
+    
  
 }
 
@@ -195,6 +201,7 @@ h1, h2 {
     width: 6.5rem;
     border-radius: 0.5rem;
     font-weight: normal;
+    font-size: 1rem;
     border: none;
     color:white;
     font-family: 'Montserrat', sans-serif;
@@ -326,7 +333,7 @@ h1, h2 {
 /* List  */
 .list-item{
     width: 100%;
-    max-width: 50rem;
+    max-width: 70%;
     padding:1rem;
     border: 1px solid black;
     list-style: none;
@@ -339,8 +346,8 @@ h1, h2 {
 /* Modal */
 
 .modal {
-    max-width: 100%;
-    width: 40rem;
+    width: 100%;
+    max-width: 70%;
     display:flex;
     flex-direction: column;
     border: 1px solid black;
@@ -357,7 +364,7 @@ h1, h2 {
 
 .modal-body {
     justify-self:auto;
-    text-align: ledt;
+    text-align: left;
     padding: 1rem;
     background-color:#E5E7EB ;
     border-radius: 10px;
@@ -370,7 +377,7 @@ h1, h2 {
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 680px){
     .flex-container {
         flex-direction: column;
     }
