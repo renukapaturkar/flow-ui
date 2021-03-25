@@ -3,9 +3,7 @@
 
 
 /* Documentation css */
-html {
-    scroll-behavior: smooth;
-}
+
 
 body{
     width:100%;
@@ -70,12 +68,12 @@ h1, h2 {
 
 .content {
     width: 100%;
-    
     padding-left:2rem;
     padding-top: 2rem;
     height: 90vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     
 }
 
