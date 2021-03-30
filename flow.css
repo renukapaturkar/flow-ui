@@ -275,6 +275,49 @@ h1, h2 {
     background-color:#1F2937;
 }
 
+
+/* Card */
+.card-container {
+    display: flex;
+}
+.card {
+    border: 1px solid #D1D5DB;
+    justify-content: left;
+    width: 15rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4); */ 
+
+}
+
+.card-img {
+    width: 15rem;
+    height: 14rem;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4); */
+}
+.card-vertical {
+    flex-direction: column;
+    position: relative;
+
+}
+.card div {
+    padding: 0.3rem;
+}
+
+.card-badge {
+    display: inline-block;
+    background-color: #60A5FA;
+    position: absolute;
+    color:#F9FAFB;
+    top: 1rem;
+    left:1rem;
+    font-size: xx-small;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    box-shadow: 1px 1px  #D1D5DB;
+    font-style: italic;
+}
 /* Input */
 
 .icon-div{
