@@ -62,14 +62,12 @@ h1, h2 {
 .logo-icon{
     height:3rem;
     width:3rem;
-    position: absolute;
-    bottom: 2rem;
-    right:7.3rem;
 
 }
 
 .logo-name {
-    padding-left: 1.4rem;
+   font-size: 3rem;
+   
 }
 .flex-container {
     display: flex;
