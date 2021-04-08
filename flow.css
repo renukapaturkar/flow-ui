@@ -473,7 +473,7 @@ h1, h2 {
 }
 
 
-@media (max-width: 680px){
+@media (max-width: 720px){
     .flex-container {
         flex-direction: column;
     }
