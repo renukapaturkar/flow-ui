@@ -98,8 +98,16 @@ body {
     .landing-container{
         flex-direction: column;
     }
+    .navigation{
+        padding:0.5rem;
+    }
     .content-two {
         padding:1rem;
+    }
+    .heading{
+        position: relative;
+        padding-top: 1rem;
+        
     }
 
 }
