@@ -90,6 +90,10 @@ body {
     color: white;
 }
 
+.link-two {
+    color:rebeccapurple;
+}
+
 @media (max-width: 680px){
     .landing-container{
         flex-direction: column;
