@@ -28,8 +28,9 @@ body {
 h1,
 h2 {
   color: var(--darkgrey-color);
-  padding: 1rem;
+  
 }
+
 
 .link {
   text-decoration: none;
