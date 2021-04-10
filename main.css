@@ -74,7 +74,7 @@ body {
   padding: 2rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 680px) {
   .landing-container {
     flex-direction: column;
   }

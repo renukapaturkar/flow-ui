@@ -440,7 +440,7 @@ h2 {
   text-align: right;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 680px) {
   .flex-container {
     flex-direction: column;
   }
