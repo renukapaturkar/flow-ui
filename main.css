@@ -10,6 +10,7 @@ body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
   position: relative;
+  overflow-x: hidden;
   
 }
 
@@ -82,7 +83,7 @@ body {
   text-align: center;
   padding: 2rem 2rem 2rem 0;
   position: absolute;
-  bottom: 0;
+  
 }
 
 
@@ -90,7 +91,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    min-width: 100%;
+    max-width: 100%;
   }
 
   .landing-container {
@@ -104,4 +105,5 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
 }
