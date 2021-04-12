@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-body {
-  width: 100%;
 
+* {
+  
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100%;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+  
 }
 
 .landing-container {
@@ -68,13 +73,25 @@ body {
 }
 
 .footer-container {
-  width: 100%;
-
-  text-align: center;
-  padding: 2rem;
+  position: relative;
 }
 
-@media (max-width: 680px) {
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 2rem 0;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
   .landing-container {
     flex-direction: column;
   }
