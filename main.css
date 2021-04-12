@@ -72,11 +72,11 @@ body {
   color: var(--primary-color);
 }
 
-.footer-container {
+/* .footer-container {
   position: relative;
-}
+} */
 
-.footer {
+.footer-container {
   width: 100%;
   text-align: center;
   padding: 2rem 2rem 0;
@@ -89,7 +89,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   .landing-container {
