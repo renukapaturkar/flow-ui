@@ -103,11 +103,11 @@ h2 {
 }
 
 .content {
-  width: 100%;
+  width: 90%;
   padding-left: 2rem;
   padding-top: 2rem;
   height: 90vh;
-  overflow-x: hidden;
+  
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -466,8 +466,8 @@ h2 {
     flex-direction: column;
   }
 
-  .navigation{
-    width: 100%;
+  .nav-demo {
+    width: 80%;
   }
   .heading {
     position: relative;
@@ -484,5 +484,7 @@ h2 {
   }
   .iframe-div {
     overflow-x: scroll;
+    padding: 0.3rem;
+    
   }
 }
