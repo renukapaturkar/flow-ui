@@ -6,7 +6,7 @@
   margin: 0;
 }
 body {
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -48,7 +48,7 @@ body {
 }
 .btn-large-container {
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -81,29 +81,26 @@ body {
 .footer-container {
   width: 100%;
   text-align: center;
-  padding: 2rem 2rem 2rem 0;
+ 
   position: absolute;
-  
+  bottom: 0;
 }
 
 
 
 
 @media (max-width: 768px) {
-  body {
-    max-width: 100%;
-  }
+
 
   .landing-container {
     flex-direction: column;
+    padding: 0;
   }
-  .navigation {
-    padding: 0.5rem;
-  }
-
+  
   .btn-large-container {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
 }

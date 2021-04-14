@@ -25,6 +25,7 @@
   box-sizing: border-box;
   position: relative;
 } */
+
 h1,
 h2 {
   color: var(--darkgrey-color);
@@ -49,7 +50,7 @@ h2 {
 }
 
 .navigation {
-  width: 100%;
+  max-width: 100%;
   height: 4rem;
   background-color: var(--primary-color);
   position: sticky;
@@ -101,11 +102,11 @@ h2 {
 }
 
 .iframe-div {
-  padding: 1rem;
+  
   margin: 0 auto;
   text-align: left;
   width: 100%;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 /* components */
@@ -311,14 +312,14 @@ h2 {
   display: flex;
   flex-direction: row;
   border: 1px solid var(--offwhite-color);
-  width: 30rem;
-  height: 12rem;
+  width: 20rem;
+  height: 10rem;
   position: relative;
 }
 
 .card-img-horizontal {
-  width: 15rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   justify-self: flex-start;
   padding-right: 1rem;
 }
@@ -441,12 +442,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
+
+ 
   .flex-container {
     flex-direction: column;
   }
 
-  .navigation {
-    padding: 0.5rem;
+  .navigation{
+    width: 100%;
   }
   .heading {
     position: relative;
@@ -462,6 +465,6 @@ h2 {
     display: none;
   }
   .iframe-div {
-    overflow-y: scroll;
+    overflow-x: scroll;
   }
 }
