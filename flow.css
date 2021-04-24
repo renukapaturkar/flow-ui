@@ -7,29 +7,26 @@
   --red-color: #dc2626;
   --green-color: #059669;
   --blue-color: #2563eb;
-  --lightblue-color: #3b82f6;
+  --light-blue-color: #3b82f6;
   --black-color: #1f2937;
-  --darkgrey-color: #374151;
-  --lightgrey-color: #6b7280;
+  --dark-grey-color: #374151;
+  --light-grey-color: #6b7280;
   --offwhite-color: #d1d5db;
   --grey-color: #9ca3af;
   --modalbody-color: #e5e7eb;
-  --aliceblue-color: aliceblue;
+  --alice-blue-color: aliceblue;
 }
-
 
 h1,
 h2 {
-  color: var(--darkgrey-color);
-  margin-top:1rem;
+  color: var(--dark-grey-color);
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  
 }
 .div-class {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
 
 .link {
   text-decoration: none;
@@ -63,11 +60,10 @@ h2 {
   width: 90%;
   height: 4rem;
   background-color: var(--primary-color);
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .heading {
@@ -104,24 +100,23 @@ h2 {
   padding-left: 2rem;
   padding-top: 2rem;
   height: 90vh;
-  
+
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 .iframe-div {
-  
   margin: 0 auto;
   text-align: left;
   max-width: 100%;
-  
+
   padding: 1rem;
 }
 
 /* components */
 /* alert */
 .alert {
-  background-color: var(--aliceblue-color);
+  background-color: var(--alice-blue-color);
   height: 2rem;
   display: flex;
   justify-content: space-between;
@@ -203,7 +198,7 @@ h2 {
   background-color: var(--green-color);
 }
 .avatar-inactive {
-  background-color: var(--lightgrey-color);
+  background-color: var(--light-grey-color);
 }
 
 /* Buttons */
@@ -226,7 +221,7 @@ h2 {
 }
 
 .btn-primary {
-  background-color: var(--lightblue-color);
+  background-color: var(--light-blue-color);
 }
 
 .btn-secondary {
@@ -234,12 +229,12 @@ h2 {
   background-color: var(--grey-color);
 }
 .btn-secondary-hover:hover {
-  background-color: var(--lightgrey-color);
+  background-color: var(--light-grey-color);
   color: var(--white-color);
 }
 
 .btn-dark {
-  background-color: var(--darkgrey-color);
+  background-color: var(--dark-grey-color);
 }
 .btn-dark-hover:hover {
   background-color: var(--black-color);
@@ -254,7 +249,7 @@ h2 {
 .btn-secondary-outline {
   width: 7.5rem;
   background-color: transparent;
-  color: var(--lightgrey-color);
+  color: var(--light-grey-color);
   border: 1px solid var(--grey-color);
 }
 
@@ -273,7 +268,7 @@ h2 {
 
 .btn-icon {
   padding: 1rem;
-  background-color: var(--darkgrey-color);
+  background-color: var(--dark-grey-color);
   color: var(--white-color);
   border: none;
   border-radius: 50%;
@@ -281,7 +276,7 @@ h2 {
   box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
 }
 .btn-icon-hover:hover {
-  background-color: var(--lightgrey-color);
+  background-color: var(--light-grey-color);
 }
 
 /* Card */
@@ -321,24 +316,20 @@ h2 {
   display: flex;
   flex-direction: row;
   border: 1px solid var(--offwhite-color);
-  width: 19rem;
+  width: 22rem;
   height: 10rem;
   position: relative;
 }
 
 .card-img-horizontal-container {
-width: 10rem;
-height: 8rem;
-object-fit: cover;
-
-
+  width: 12rem;
+  height: 10rem;
+  object-fit: cover;
 }
 
-.card-image-horizontal {
-  width: 100%;
- height: 100%;
-
-
+.card-img-horizontal {
+  max-width: 100%;
+  height: 100%;
 }
 
 .card-overlay-container {
@@ -372,7 +363,7 @@ object-fit: cover;
 .input-icon {
   width: 2rem;
   height: 2.1rem;
-  background-color: var(--lightgrey-color);
+  background-color: var(--light-grey-color);
   padding: 0.4rem;
   position: absolute;
   top: 0.8px;
@@ -385,7 +376,7 @@ object-fit: cover;
   height: 2rem;
   outline: none;
   font-family: "Montserrat", sans-serif;
-  border: 0.5px solid var(--lightgrey-color);
+  border: 0.5px solid var(--light-grey-color);
   padding: 0.4rem;
 }
 
@@ -409,13 +400,8 @@ object-fit: cover;
 
 .img {
   width: 100%;
-  
 }
 
-.img-large {
-  max-width: 100%;
-  width: 50rem;
-}
 /* List  */
 .list-item {
   width: 100%;
@@ -466,7 +452,6 @@ object-fit: cover;
     padding: 0;
   }
 
- 
   .flex-container {
     flex-direction: column;
   }
@@ -490,6 +475,5 @@ object-fit: cover;
   .iframe-div {
     overflow-x: scroll;
     padding: 0.3rem;
-    
   }
 }
